@@ -35,13 +35,13 @@ label{
             <form class="formulario" action="../controllers/controller_altamasiva.php" method="POST">
                 <fieldset>
                     <label for="nombre">Nombre:</label>
-                    <input type="text" name="nombre" ><br><br>
+                    <input type="text" name="nombre" required><br><br>
                     
                     <label for="apellido">Apellido:</label>
-                    <input type="text" name="apellido" ><br><br>
+                    <input type="text" name="apellido" required><br><br>
 
                     <label for="nacimiento">Fecha Nacimiento:</label>
-                    <input type="date" name="nacimiento" ><br><br>
+                    <input type="date" name="nacimiento" required><br><br>
 
                     <label for="modulo">Genero:</label>
                     <select name="genero">
@@ -50,7 +50,7 @@ label{
                     </select><br><br>
 
                     <label for="altafecha">Fecha Alta Contrato:</label>
-                    <input type="date" name="altafecha" ><br><br>
+                    <input type="date" name="altafecha" required><br><br>
 
                     <label for="departamento">Departamento:</label>
                     <select name="departamento">
@@ -60,7 +60,7 @@ label{
                     </select><br><br>
 
                     <label for="salario">Salario:</label>
-                    <input type="text" name="salario" ><br><br>
+                    <input type="text" name="salario" required><br><br>
 
                     <label for="cargo">Cargo:</label>
                     <select name="cargo">
