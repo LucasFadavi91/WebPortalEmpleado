@@ -44,7 +44,7 @@ label{
     echo "</tr>";
 
         foreach($stmt as $emp) {
-            //var_dump($emp); 
+           
             $emp_no=$emp['emp_no'];
             $birth_date=$emp['birth_date'];
             $first_name=$emp['first_name'];
@@ -77,7 +77,7 @@ label{
             echo "</tr>";
 
             foreach($stmt1 as $emp) {
-            //var_dump($emp); 
+      
             $salary=$emp['salary'];
             $from_date=$emp['from_date'];
             $to_date=$emp['to_date'];
@@ -85,7 +85,7 @@ label{
 
       
                 echo "<tr>";
-                    echo "<td>".$salary."</td>";
+                    echo "<td>".$salary." € </td>";
                     echo "<td>".$from_date."</td>";
                     echo "<td>".$to_date."</td>";
         
@@ -106,7 +106,7 @@ label{
             echo "</tr>";
 
             foreach($stmt2 as $emp) {
-            //var_dump($emp); 
+         
             $title=$emp['title'];
             $from_date=$emp['from_date'];
             $to_date=$emp['to_date'];
@@ -138,7 +138,7 @@ label{
             foreach($stmt3 as $emp) {
             /*El nombre del departamento se puede visualizar en la tabla porque
             en el select hay un JOIN*/   
-            //var_dump($emp);
+    
             $dept_no=$emp['dept_no'];
             $dept_name=$emp['dept_name'];
             $from_date=$emp['from_date'];

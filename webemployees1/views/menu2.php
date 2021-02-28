@@ -18,7 +18,7 @@
 <a href="../controllers/logout.php"><button>Cerrar Sesión</button></a>
 <ul>
   <li><a href="../controllers/controller_minomina.php">Mi Nomina</a></li>
-  <li><a href="../controllers/">Historial Laboral</a></li>
+  <li><a href="../controllers/controller_historial.php">Historial Laboral</a></li>
 </ul>
 
 

@@ -26,7 +26,7 @@
   <li><a href="../controllers/">Nuevo Jefe Departamento</a></li>
   <li><a href="../controllers/">Baja Empleado</a></li>
   <li><a href="../controllers/controller_minomina.php">Mi Nomina</a></li>
-  <li><a href="../controllers/">Historial Laboral</a></li>
+  <li><a href="../controllers/controller_historial.php">Historial Laboral</a></li>
 </ul>
 
 
