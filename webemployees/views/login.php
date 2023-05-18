@@ -3,8 +3,7 @@
 
 	if (isset($_SESSION) && isset($_SESSION["userId"])) {
 		// Redireccionar al usuario a otra página, ya se ha iniciado la sesión
-		//echo "<p style='color: green;'>Ha iniciado sesión, redireccionando... (NO IMPREMENTADO AÚN, NO ES QUE NO FUNCIONE. ACORDAOS DE QUITAR ESTE MENSAJE PLS)</p><br>";
-
+		
 		require_once("../models/model_login.php");
 
 		$id = $_SESSION["userId"];
